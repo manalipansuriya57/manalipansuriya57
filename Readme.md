@@ -73,10 +73,10 @@ Most of my work is client projects under NDA, so the code is private. Here's wha
 
 | Project | What it does | Stack |
 |---|---|---|
-| **LLM Code-Response Evaluation Toolkit** | Rates LLM coding answers on correctness, efficiency and explanation quality by running them against test cases | Python · FastAPI · React |
-| **Preference Data Labeling Interface** | Side-by-side A/B ranking of model responses with rubric checklist and labeler agreement tracking | Next.js · Node.js · PostgreSQL |
-| **RAG Answer Quality Evaluator** | Scores chatbot answers for groundedness, relevance and hallucination with per-question error reports | Python · LangChain · pgvector |
-| **Agentic Task Assistant** | Multi-step tool-calling agent, measured on a 100+ task evaluation set | TypeScript · Node.js · OpenAI / Anthropic |
+| [**LLM Code-Response Evaluation Toolkit**](https://github.com/manalipansuriya57/llm-code-eval-toolkit) | Rates LLM coding answers on correctness, efficiency and explanation quality by running them against test cases | Python · FastAPI · React |
+| [**Preference Data Labeling Interface**](https://github.com/manalipansuriya57/preference-labeling-ui) | Side-by-side A/B ranking of model responses with rubric checklist and labeler agreement tracking | Next.js · Node.js |
+| [**RAG Answer Quality Evaluator**](https://github.com/manalipansuriya57/rag-answer-evaluator) | Scores chatbot answers for groundedness, relevance and hallucination with per-question error reports | Python · LangChain-style scoring |
+| [**Agentic Task Assistant**](https://github.com/manalipansuriya57/agentic-task-assistant) | Multi-step tool-calling agent, measured on a 100+ task evaluation set | TypeScript · Node.js · OpenAI / Anthropic |
 
 ### Full stack
 
@@ -91,6 +91,10 @@ Most of my work is client projects under NDA, so the code is private. Here's wha
 
 | Repo | About | Stack |
 |---|---|---|
+| [**llm-code-eval-toolkit**](https://github.com/manalipansuriya57/llm-code-eval-toolkit) | LLM coding answer evaluation with tests and rubrics | Python · FastAPI · React |
+| [**preference-labeling-ui**](https://github.com/manalipansuriya57/preference-labeling-ui) | Pairwise preference labeling for RLHF-style data | Next.js · JavaScript |
+| [**rag-answer-evaluator**](https://github.com/manalipansuriya57/rag-answer-evaluator) | RAG answer quality scoring and error reports | Python |
+| [**agentic-task-assistant**](https://github.com/manalipansuriya57/agentic-task-assistant) | Tool-calling agent with 100+ task eval set | TypeScript |
 | [**dealer-app**](https://github.com/manalipansuriya57/dealer-app) | Dealer management web app | JavaScript |
 
 ---
@@ -109,8 +113,26 @@ Most of my work is client projects under NDA, so the code is private. Here's wha
 
 ## 📊 GitHub stats
 
-![Manali's GitHub stats](https://github-readme-stats.vercel.app/api?username=manalipansuriya57&show_icons=true&hide_border=true&count_private=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=manalipansuriya57&layout=compact&hide_border=true)
+<!-- count_private only works on self-hosted github-readme-stats with a PAT; public Vercel ignores it -->
+<p align="left">
+  <img
+    height="165"
+    alt="GitHub stats"
+    src="https://github-readme-stats.vercel.app/api?username=manalipansuriya57&show_icons=true&hide_border=true&hide=issues,prs,contributed&title_color=0891b2&icon_color=0891b2&text_color=334155"
+  />
+  <img
+    height="165"
+    alt="Top languages"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=manalipansuriya57&layout=compact&hide_border=true&langs_count=6&exclude_repo=dealer.github.io,manalipansuriya57&size_weight=0.5&count_weight=0.5&title_color=0891b2&text_color=334155"
+  />
+</p>
+
+<p align="left">
+  <img
+    alt="GitHub activity graph"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=manalipansuriya57&hide_border=true&theme=minimal&color=0891b2&line=F1E05A&point=0891b2&area=true"
+  />
+</p>
 
 ---
 
